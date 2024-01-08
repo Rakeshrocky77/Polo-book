@@ -1,0 +1,46 @@
+*{
+    margin: 0px;
+    padding: 0px;
+}
+
+.head {
+    background-color: rgb(100, 100, 245);
+    color: white;
+    border-top-left-radius: 20px;
+    border-top-right-radius: 20px;  
+    text-align: center;
+    font-size: 60px;
+}
+
+.container {
+    background-color: rgba(128, 128, 128, 0.562);
+    width: 203vh;
+    height: 42vw;
+    text-align: center;
+}
+
+label {
+    padding-top: 200px;
+    color:white;
+    font-size: 30px;
+    align-items: center;
+    padding-left: 10px;
+}
+
+input {
+    border-radius: 6px;
+    font-size: 20px;
+}
+
+button {
+   font-size: 20px;
+   border-radius: 10px;
+   background-color:rgb(100, 100, 245);
+   margin: 10px;
+   padding: 10px;
+}
+.footer {
+    width: 100px;
+    height: 100px;
+}
+
