@@ -95,3 +95,9 @@ input {
    height: 40px;
 }
 
+.Top {
+ display: flex;
+ flex-direction: row;
+ align-items: center;
+ background-color:rgb(100, 100, 245);
+}
