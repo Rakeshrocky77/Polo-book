@@ -101,6 +101,7 @@ input {
     border-top-left-radius: 20px;
     border-top-right-radius: 20px;
     width: 205vh;
+    height: 85px;
     text-align: center;
     align-items: center;
     display: flex;
@@ -127,4 +128,39 @@ input {
 input {
     width: 600px;
     border-radius: 30px;
+}
+
+.para {
+    margin-left: 100vh;
+    display: flex;
+    flex-direction: row;
+}
+
+.Middle {
+    text-align: center;
+    display: grid;
+    grid-template-columns:40% 60%;
+}
+
+.Middlelt {
+    
+    background-color:  rgba(240, 234, 234, 0.747);
+    border-bottom-left-radius: 20px;
+}
+
+.space {
+    border: 1px solid black;
+    width: 350px;
+    height: 350px;
+    border-radius: 10px;
+    margin-left: 10px;
+    margin-top: 10xpx;
+}
+
+.P1,.P2, .P3, .P4{
+    margin: 35px 0 30px 100px;
+    background-color: rgb(100, 100, 245);
+    border-radius: 12px;
+    width: 150px;
+    font-size: 30px;
 }
