@@ -95,9 +95,36 @@ input {
    height: 40px;
 }
 
+/*/start from firstpage style.css*/
 .Top {
- display: flex;
- flex-direction: row;
- align-items: center;
- background-color:rgb(100, 100, 245);
+    background-color: rgb(100, 100, 245);
+    border-top-left-radius: 20px;
+    border-top-right-radius: 20px;
+    width: 205vh;
+    text-align: center;
+    align-items: center;
+    display: flex;
+    flex-direction: row;
+}
+
+.main {
+    margin-left: 8px;
+    margin-right: 8px;
+    text-align: center;
+    width: 15px;
+    border: 10px solid white;
+    border-radius: 15px;
+    display: flex;
+    flex-direction: row;
+
+}
+
+.lftop {
+    display: flex;
+    flex-direction: row;
+}
+
+input {
+    width: 600px;
+    border-radius: 30px;
 }
