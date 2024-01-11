@@ -150,7 +150,7 @@ input {
     grid-template-columns:40% 60%;
 }
 
-.Middlelt {
+.Middleft {
     
     background-color:  rgba(240, 234, 234, 0.747);
     border-bottom-left-radius: 20px;
@@ -171,4 +171,38 @@ input {
     border-radius: 12px;
     width: 150px;
     font-size: 30px;
+}
+
+.Middright {
+    display: grid;
+    grid-template-columns:70% 30% ;
+}
+
+.midlt {
+    background-color: skyblue;
+}
+
+.section {
+align-items: center;
+color: darkblue;
+border: 1px solid skyblue ;
+height: 20px;
+font-weight: bolder;
+font-size: 20px;
+}
+.space1,.space2 {
+    border: 1.5px solid black;
+    border-radius: 10px;
+    height: 240px;
+    width: 70vh;
+    margin-left: 70px;
+    margin-top: 20px;
+}
+.space3 {
+    border: 1.5px solid black;
+    border-radius: 10px;
+    height: 65px;
+    width: 70vh;
+    margin-left: 70px;
+    margin-top: 20px
 }
