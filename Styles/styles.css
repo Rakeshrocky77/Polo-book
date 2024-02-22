@@ -1,0 +1,110 @@
+*{
+    margin: 0px;
+    padding: 0px;
+}
+
+.PoloBook {
+    margin-left: 5px;
+}
+
+.head {
+    background-color: rgb(100, 100, 245);
+    color: white;
+    border-top-left-radius: 20px;
+    border-top-right-radius: 20px;  
+    text-align: center;
+    font-size: 30px;
+    width: 205vh;
+    display: flex;
+    flex-direction: row;
+    color: #738c00;
+}
+
+.sign-in-button{
+    background-color: #fff;
+    color: rgb(100, 100, 245);
+    font-size: 15px;
+    font-family: Arial;
+    font-weight: bold;
+    padding-top: 2px;
+    padding-left: 20px;
+    padding-right: 20px;
+    padding-bottom: 2px;
+    margin-left: 600px;
+    margin-top: 15px;
+    margin-bottom: 15px;   
+    border: none;
+    border-radius:25px;
+    cursor: pointer;
+}
+
+.log-in-button {
+    background-color: #fff;
+    color: rgb(100, 100, 245);
+    font-size: 15px;
+    font-family: Arial;
+    font-weight: bold;
+    padding-top: 2px;
+    padding-left: 20px;
+    padding-right: 20px;
+    padding-bottom: 2px;
+    margin-left: 50px;
+    margin-top: 15px;
+    margin-bottom: 15px;   
+    border: none;
+    border-radius:25px;
+    cursor: pointer;
+}
+
+.container {
+    background-color: rgba(240, 234, 234, 0.747);
+    width: 205vh;
+    height: 40vw;
+    display:grid;
+    grid-template-columns:50% 50%;
+    align-items: center; 
+    text-align: center;
+}
+
+img {
+   border-radius: 100px;
+}
+
+label {
+    padding-top: 20px;
+    margin-top: 20px;
+    color:black;
+    font-size: 30px;
+    align-items: center;
+}
+
+input {
+    padding: 5px 5px 5px 5px;
+    border-radius: 6px;
+    font-size: 20px;
+}
+
+.login1 {
+    border: none;
+    cursor: pointer;
+   font-size: 12px;
+   border-radius: 50px;
+   background-color:rgb(100, 100, 245);
+   margin: 10px;
+   padding: 20px 25px 20px 25px;
+   font-size: 25px;
+   font-weight: bold;
+}
+
+.footer {
+   text-align: center;
+   font-style: italic;
+   color: rgba(255, 217, 0, 0.384);
+   background-color:rgb(100, 100, 245);
+   font-size: 20px;
+   border-bottom-left-radius: 8px;
+   border-bottom-right-radius: 8px;
+   width: 205vh;
+   height: 40px;
+}
+
