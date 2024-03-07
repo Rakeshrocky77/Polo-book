@@ -1,5 +1,3 @@
-console.log("john");
+console.log('hello');
 
-let signinbuttom = '';
-const buttonElement = document.querySelector('.sign-in-button-js')
-.innerHTML = 'hello';
+hello;
